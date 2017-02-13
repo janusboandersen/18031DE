@@ -27,7 +27,7 @@ z = [z1,z2,z3,z4]
 #get the argument, preferred polar form
 #theta2 = math.atan2(z.imag, z.real)
 
-#manual calculation - shows the problem: z1 and z3 have yield angle, as well as z2 and z4
+#manual calculation - shows the problem: z1 and z3 yield same argument angle, as well does z2 and z4
 theta_man_1 = [math.atan(z1.imag/z1.real), math.atan(z2.imag/z2.real), math.atan(z3.imag/z3.real), math.atan(z4.imag/z4.real)]
 
 #correcting the calcs by adding/subtracting pi to point angle into right quadrants
